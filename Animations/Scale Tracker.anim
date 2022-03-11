@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Contact Tracker/Container/Tracking Points
+    path: Contact Tracker/Tracking Points
     classID: 1818360610
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Contact Tracker/Container/Tracking Points/Cull
+    path: Contact Tracker/Tracking Points/Cull
     classID: 1818360610
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -82,14 +82,14 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3691574001
+      path: 3695631678
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1818360610
       customType: 33
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2848024338
+      path: 1087440826
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1818360610
@@ -142,7 +142,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Contact Tracker/Container/Tracking Points
+    path: Contact Tracker/Tracking Points
     classID: 1818360610
     script: {fileID: 0}
   - curve:
@@ -170,7 +170,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Contact Tracker/Container/Tracking Points/Cull
+    path: Contact Tracker/Tracking Points/Cull
     classID: 1818360610
     script: {fileID: 0}
   m_EulerEditorCurves: []
