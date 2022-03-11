@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: C&D Start
+  m_Name: Scale Tracker
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -24,15 +24,15 @@ AnimationClip:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
+        outSlope: 59.999996
         tangentMode: 69
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1
+        time: 0.016666668
         value: 1
-        inSlope: 1
+        inSlope: 59.999996
         outSlope: 0
         tangentMode: 69
         weightedMode: 0
@@ -41,28 +41,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[2].weight
-    path: Contact Tracker/Container
-    classID: 1818360608
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 69
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Sources.Array.data[3].weight
-    path: Contact Tracker/Container
-    classID: 1818360608
+    attribute: m_Weight
+    path: Contact Tracker/Container/Tracking Points
+    classID: 1818360610
     script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
@@ -73,18 +54,11 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 962391119
-      attribute: 44
+      path: 3691574001
+      attribute: 4294967283
       script: {fileID: 0}
-      typeID: 1818360608
-      customType: 31
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 962391119
-      attribute: 60
-      script: {fileID: 0}
-      typeID: 1818360608
-      customType: 31
+      typeID: 1818360610
+      customType: 33
       isPPtrCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
@@ -92,7 +66,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -115,15 +89,15 @@ AnimationClip:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
+        outSlope: 59.999996
         tangentMode: 69
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1
+        time: 0.016666668
         value: 1
-        inSlope: 1
+        inSlope: 59.999996
         outSlope: 0
         tangentMode: 69
         weightedMode: 0
@@ -132,28 +106,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[2].weight
-    path: Contact Tracker/Container
-    classID: 1818360608
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 69
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Sources.Array.data[3].weight
-    path: Contact Tracker/Container
-    classID: 1818360608
+    attribute: m_Weight
+    path: Contact Tracker/Container/Tracking Points
+    classID: 1818360610
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
