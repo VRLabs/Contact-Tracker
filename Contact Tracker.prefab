@@ -495,7 +495,7 @@ ScaleConstraint:
   m_Enabled: 1
   m_Weight: 0
   m_ScaleAtRest: {x: 1, y: 1, z: 1}
-  m_ScaleOffset: {x: 2, y: 2, z: 2}
+  m_ScaleOffset: {x: 1, y: 1, z: 1}
   m_AffectScalingX: 1
   m_AffectScalingY: 1
   m_AffectScalingZ: 1
