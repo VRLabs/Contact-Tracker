@@ -1,5 +1,121 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &754098133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754098134}
+  - component: {fileID: 754098135}
+  m_Layer: 0
+  m_Name: Z+
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &754098134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754098133}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 974925824185284465}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &754098135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754098133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 0}
+  shapeType: 0
+  radius: 1
+  height: 2
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - Torso
+  allowSelf: 0
+  allowOthers: 1
+  localOnly: 0
+  receiverType: 2
+  parameter: ContactTracker.Point.Z+
+  value: 1
+  minVelocity: 0.05
+--- !u!1 &1259436658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1259436659}
+  - component: {fileID: 1259436660}
+  m_Layer: 0
+  m_Name: Z-
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1259436659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259436658}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 974925824185284465}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1259436660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259436658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 0}
+  shapeType: 0
+  radius: 1
+  height: 2
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - Torso
+  allowSelf: 0
+  allowOthers: 1
+  localOnly: 0
+  receiverType: 2
+  parameter: ContactTracker.Point.Z-
+  value: 1
+  minVelocity: 0.05
 --- !u!1 &1656290368
 GameObject:
   m_ObjectHideFlags: 0
@@ -61,7 +177,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 974925824185284465}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4968267866765915634
 MeshFilter:
@@ -130,6 +246,85 @@ ScaleConstraint:
   - sourceTransform: {fileID: 6081129921729490045, guid: 5795f59ce7c5fc14ebb2d0d1b44799f6,
       type: 3}
     weight: 1
+--- !u!1 &1392423543190867403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1427562857130469484}
+  - component: {fileID: 7283905860948795061}
+  - component: {fileID: 385728882706756719}
+  m_Layer: 0
+  m_Name: Proximity
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1427562857130469484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392423543190867403}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_Children: []
+  m_Father: {fileID: 974925824185284465}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7283905860948795061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392423543190867403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 0}
+  shapeType: 0
+  radius: 0.6
+  height: 2
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - Torso
+  allowSelf: 0
+  allowOthers: 1
+  localOnly: 0
+  receiverType: 2
+  parameter: ContactTracker.Proximity
+  value: 1
+  minVelocity: 0.05
+--- !u!1818360610 &385728882706756719
+ScaleConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392423543190867403}
+  m_Enabled: 1
+  m_Weight: 1
+  m_ScaleAtRest: {x: 1, y: 1, z: 1}
+  m_ScaleOffset: {x: 1, y: 1, z: 1}
+  m_AffectScalingX: 1
+  m_AffectScalingY: 1
+  m_AffectScalingZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 6081129921729490045, guid: 5795f59ce7c5fc14ebb2d0d1b44799f6,
+      type: 3}
+    weight: 1
 --- !u!1 &1984866978749344854
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,7 +336,7 @@ GameObject:
   - component: {fileID: 2984960060276439779}
   - component: {fileID: 4930688688892588993}
   m_Layer: 0
-  m_Name: C
+  m_Name: Y+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,11 +350,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984866978749344854}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.33, y: -0.33, z: 0.33}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 974925824185284465}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4930688688892588993
 MonoBehaviour:
@@ -185,7 +380,7 @@ MonoBehaviour:
   allowOthers: 1
   localOnly: 0
   receiverType: 2
-  parameter: ContactTracker.Point.C
+  parameter: ContactTracker.Point.Y+
   value: 1
   minVelocity: 0.05
 --- !u!1 &4470495969483978783
@@ -257,7 +452,7 @@ GameObject:
   - component: {fileID: 175220958472239148}
   - component: {fileID: 5145471372371437642}
   m_Layer: 0
-  m_Name: B
+  m_Name: X-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -271,11 +466,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4783415640472473998}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.33, y: 0.33, z: 0.33}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 974925824185284465}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5145471372371437642
 MonoBehaviour:
@@ -301,7 +496,7 @@ MonoBehaviour:
   allowOthers: 1
   localOnly: 0
   receiverType: 2
-  parameter: ContactTracker.Point.B
+  parameter: ContactTracker.Point.X-
   value: 1
   minVelocity: 0.05
 --- !u!1 &4801081337651386430
@@ -315,7 +510,7 @@ GameObject:
   - component: {fileID: 3691173737900421430}
   - component: {fileID: 6965858128553719415}
   m_Layer: 0
-  m_Name: A
+  m_Name: X+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -329,11 +524,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4801081337651386430}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.33, y: -0.33, z: -0.33}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 974925824185284465}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6965858128553719415
 MonoBehaviour:
@@ -359,7 +554,7 @@ MonoBehaviour:
   allowOthers: 1
   localOnly: 0
   receiverType: 2
-  parameter: ContactTracker.Point.A
+  parameter: ContactTracker.Point.X+
   value: 1
   minVelocity: 0.05
 --- !u!1 &5434258487490465111
@@ -373,7 +568,6 @@ GameObject:
   - component: {fileID: 974925824185284465}
   - component: {fileID: 4135359216423080057}
   - component: {fileID: 3351765335998711001}
-  - component: {fileID: 138683952}
   - component: {fileID: 5959010088717697304}
   m_Layer: 0
   m_Name: Tracking Points
@@ -391,13 +585,16 @@ Transform:
   m_GameObject: {fileID: 5434258487490465111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
+  - {fileID: 3269587030738052788}
+  - {fileID: 1427562857130469484}
   - {fileID: 3691173737900421430}
   - {fileID: 175220958472239148}
   - {fileID: 2984960060276439779}
   - {fileID: 5328681676030726184}
-  - {fileID: 3269587030738052788}
+  - {fileID: 754098134}
+  - {fileID: 1259436659}
   m_Father: {fileID: 6443734747979092963}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -410,7 +607,7 @@ ParentConstraint:
   m_GameObject: {fileID: 5434258487490465111}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: 6.85128, y: -1.5879335, z: -8.726092}
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
   m_RotationAtRest: {x: 0, y: 0, z: 0}
   m_TranslationOffsets:
   - {x: 0, y: 0, z: 0}
@@ -456,35 +653,12 @@ PositionConstraint:
     weight: 0
   - sourceTransform: {fileID: 5328681676030726184}
     weight: 0
+  - sourceTransform: {fileID: 754098134}
+    weight: 0
+  - sourceTransform: {fileID: 1259436659}
+    weight: 0
   - sourceTransform: {fileID: 974925824185284465}
     weight: 1
---- !u!114 &138683952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5434258487490465111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 0
-  radius: 1
-  height: 2
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  collisionTags:
-  - Torso
-  allowSelf: 0
-  allowOthers: 1
-  localOnly: 0
-  receiverType: 2
-  parameter: ContactTracker.Proximity
-  value: 1
-  minVelocity: 0.05
 --- !u!1818360610 &5959010088717697304
 ScaleConstraint:
   m_ObjectHideFlags: 0
@@ -494,8 +668,8 @@ ScaleConstraint:
   m_GameObject: {fileID: 5434258487490465111}
   m_Enabled: 1
   m_Weight: 0
-  m_ScaleAtRest: {x: 1, y: 1, z: 1}
-  m_ScaleOffset: {x: 1, y: 1, z: 1}
+  m_ScaleAtRest: {x: 0.4, y: 0.4, z: 0.4}
+  m_ScaleOffset: {x: 0.4, y: 0.4, z: 0.4}
   m_AffectScalingX: 1
   m_AffectScalingY: 1
   m_AffectScalingZ: 1
@@ -516,7 +690,7 @@ GameObject:
   - component: {fileID: 5328681676030726184}
   - component: {fileID: 5184891506911124181}
   m_Layer: 0
-  m_Name: D
+  m_Name: Y-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -530,11 +704,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5714050442765273600}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.33, y: 0.33, z: -0.33}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 974925824185284465}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5184891506911124181
 MonoBehaviour:
@@ -560,7 +734,7 @@ MonoBehaviour:
   allowOthers: 1
   localOnly: 0
   receiverType: 2
-  parameter: ContactTracker.Point.D
+  parameter: ContactTracker.Point.Y-
   value: 1
   minVelocity: 0.05
 --- !u!1 &6704738930233041896

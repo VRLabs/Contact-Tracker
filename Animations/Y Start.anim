@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: A&B End
+  m_Name: Y Start
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -41,7 +41,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[0].weight
+    attribute: m_Sources.Array.data[2].weight
     path: Contact Tracker/Tracking Points
     classID: 1818360608
     script: {fileID: 0}
@@ -50,7 +50,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 69
@@ -60,7 +60,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[1].weight
+    attribute: m_Sources.Array.data[3].weight
     path: Contact Tracker/Tracking Points
     classID: 1818360608
     script: {fileID: 0}
@@ -74,14 +74,14 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 3695631678
-      attribute: 12
+      attribute: 44
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3695631678
-      attribute: 28
+      attribute: 60
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
@@ -132,7 +132,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[0].weight
+    attribute: m_Sources.Array.data[2].weight
     path: Contact Tracker/Tracking Points
     classID: 1818360608
     script: {fileID: 0}
@@ -141,7 +141,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 69
@@ -151,7 +151,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[1].weight
+    attribute: m_Sources.Array.data[3].weight
     path: Contact Tracker/Tracking Points
     classID: 1818360608
     script: {fileID: 0}
