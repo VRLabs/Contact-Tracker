@@ -273,7 +273,7 @@ Transform:
   m_GameObject: {fileID: 1392423543190867403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.7391304, y: 1.7391304, z: 1.7391304}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 974925824185284465}
   m_RootOrder: 1
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootTransform: {fileID: 0}
   shapeType: 0
-  radius: 1
+  radius: 0.875
   height: 2
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -585,7 +585,7 @@ Transform:
   m_GameObject: {fileID: 5434258487490465111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.575, y: 0.575, z: 0.575}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 3269587030738052788}
   - {fileID: 1427562857130469484}
@@ -664,7 +664,7 @@ ScaleConstraint:
   m_GameObject: {fileID: 5434258487490465111}
   m_Enabled: 1
   m_Weight: 0
-  m_ScaleAtRest: {x: 0.575, y: 0.575, z: 0.575}
+  m_ScaleAtRest: {x: 0.5, y: 0.5, z: 0.5}
   m_ScaleOffset: {x: 1, y: 1, z: 1}
   m_AffectScalingX: 1
   m_AffectScalingY: 1
