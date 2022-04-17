@@ -56,7 +56,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 817813a412c7842468b16768e952af45, type: 2}
+    m_Motion: {fileID: 7400000, guid: bd8e11e2e565249759c353590904ae1a, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -64,7 +64,7 @@ BlendTree:
     m_DirectBlendParameter: Tracker 1/Point 1
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 86cc05db9156b4bbd94dd6ba7cb4a446, type: 2}
+    m_Motion: {fileID: 7400000, guid: 693a042bc84494b9aace57bd74748934, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -162,7 +162,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 1
-  m_Motion: {fileID: 7400000, guid: b21cd5d86536340fead529632b28d140, type: 2}
+  m_Motion: {fileID: 7400000, guid: e853a06644a164c3296d047dfef1b3ec, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -190,7 +190,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 23225311d3a5842d38ceaeafe7d7e32d, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0f27e51f1148d4d7b8635698ff68ef5b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -447,55 +447,55 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ContactTracker.Point.X+
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ContactTracker.Point.X-
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ContactTracker.Point.Y+
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ContactTracker.Point.Y-
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ContactTracker.Point.Z+
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ContactTracker.Point.Z-
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ContactTracker.Proximity
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ContactTracker.Size.Min
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Tracker Control
@@ -738,7 +738,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 2760f901ce93a44ea9ab0bfe7046d68f, type: 2}
+    m_Motion: {fileID: 7400000, guid: feb52915181e946a8a4d2ba185ab1cd8, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -746,7 +746,7 @@ BlendTree:
     m_DirectBlendParameter: Tracker 1/Point 1
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 6c0d3ab50ad104beab933ba8357adf1e, type: 2}
+    m_Motion: {fileID: 7400000, guid: 94d2f367bd1104430852f78a509b7ce2, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -769,7 +769,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: eb0411bd3dd904e6483e243d5a3fb77b, type: 2}
+    m_Motion: {fileID: 7400000, guid: 0412c20031e5f43468fb10eb1f1ffded, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -777,7 +777,7 @@ BlendTree:
     m_DirectBlendParameter: Tracker 1/Point 1
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 9e5757ada7638470bad7e37f76ca26e5, type: 2}
+    m_Motion: {fileID: 7400000, guid: 42c8780dd19c746f0bf6ccdceadabeb0, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -945,7 +945,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 50225568f86ed47a59801a1b3ea4bc04, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5e014f12d40a143f797a232a2da5d9db, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
