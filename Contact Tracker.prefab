@@ -56,7 +56,6 @@ MonoBehaviour:
   localOnly: 0
   receiverType: 2
   parameter: ContactTracker.Point.Z+
-  value: 1
   minVelocity: 0.05
 --- !u!1 &1259436658
 GameObject:
@@ -114,7 +113,6 @@ MonoBehaviour:
   localOnly: 0
   receiverType: 2
   parameter: ContactTracker.Point.Z-
-  value: 1
   minVelocity: 0.05
 --- !u!1 &1656290368
 GameObject:
@@ -205,7 +203,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4b0aa6f557d564f88a7fe4cef9e8027e, type: 2}
+  - {fileID: 2100000, guid: 321d6a27c75754b82a3425cb9bb4a8c3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -243,7 +241,7 @@ ScaleConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 6081129921729490045, guid: 5795f59ce7c5fc14ebb2d0d1b44799f6,
+  - sourceTransform: {fileID: 6081129921729490045, guid: 56473278c5631486497e0e9b7c915c82,
       type: 3}
     weight: 1
 --- !u!1 &1392423543190867403
@@ -302,7 +300,6 @@ MonoBehaviour:
   localOnly: 0
   receiverType: 2
   parameter: ContactTracker.Proximity
-  value: 1
   minVelocity: 0.05
 --- !u!1 &1984866978749344854
 GameObject:
@@ -360,7 +357,6 @@ MonoBehaviour:
   localOnly: 0
   receiverType: 2
   parameter: ContactTracker.Point.Y+
-  value: 1
   minVelocity: 0.05
 --- !u!1 &4470495969483978783
 GameObject:
@@ -476,7 +472,6 @@ MonoBehaviour:
   localOnly: 0
   receiverType: 2
   parameter: ContactTracker.Point.X-
-  value: 1
   minVelocity: 0.05
 --- !u!1 &4801081337651386430
 GameObject:
@@ -534,7 +529,6 @@ MonoBehaviour:
   localOnly: 0
   receiverType: 2
   parameter: ContactTracker.Point.X+
-  value: 1
   minVelocity: 0.05
 --- !u!1 &5434258487490465111
 GameObject:
@@ -651,7 +645,7 @@ ScaleConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 6081129921729490045, guid: 5795f59ce7c5fc14ebb2d0d1b44799f6,
+  - sourceTransform: {fileID: 6081129921729490045, guid: 56473278c5631486497e0e9b7c915c82,
       type: 3}
     weight: 1
 --- !u!1 &5714050442765273600
@@ -710,7 +704,6 @@ MonoBehaviour:
   localOnly: 0
   receiverType: 2
   parameter: ContactTracker.Point.Y-
-  value: 1
   minVelocity: 0.05
 --- !u!1 &6704738930233041896
 GameObject:
@@ -772,7 +765,7 @@ ParentConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 6081129921729490045, guid: 5795f59ce7c5fc14ebb2d0d1b44799f6,
+  - sourceTransform: {fileID: 6081129921729490045, guid: 56473278c5631486497e0e9b7c915c82,
       type: 3}
     weight: 1
 --- !u!54 &357873260

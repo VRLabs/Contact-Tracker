@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cull
-  m_Shader: {fileID: 4800000, guid: a44d6f55f7448438faeced4a4a16b03a, type: 3}
+  m_Shader: {fileID: 4800000, guid: 68c74ee2762b74559bd43a5ff2efd484, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
