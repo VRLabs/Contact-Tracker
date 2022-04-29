@@ -9,7 +9,7 @@ Tracking for contacts, by contacts.
 
 ## How it works
 
-Proximity [receivers](https://docs.vrchat.com/docs/contacts) overlap on each axis and feed values to a parented position constraint, which centers the constraint on a tagged sender.
+Proximity-type [receivers](https://docs.vrchat.com/docs/contacts) overlap on each axis and feed values to a parented position constraint, which centers the constraint on a tagged sender.
 
 ## Install guide
 
