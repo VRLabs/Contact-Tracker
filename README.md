@@ -13,6 +13,8 @@ Proximity-type [receivers](https://docs.vrchat.com/docs/contacts) overlap on eac
 
 ## Install guide
 
+https://user-images.githubusercontent.com/45078979/165898002-cadaceb8-213c-431f-885b-03e5c7b9ba48.mp4
+
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
 "ContactTracker.Control" is a synced parameter, so click the checkbox within the tool to add it to your avatar's parameter asset. 
