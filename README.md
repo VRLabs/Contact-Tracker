@@ -23,7 +23,7 @@ Unpack the prefab by right-clicking it.
 
 Place "Contact Tracker" at the base of your avatar.
 
-Remove "Tracker Target" outside of "Contact Tracker" and place it anywhere in your avatar's hierarchy. Adjust the position transform to your taste.
+Remove "Tracker Target" outside of "Contact Tracker" and place it anywhere in your avatar's hierarchy as needed.
 
 ## How to use
 
