@@ -27,7 +27,7 @@ Remove "Tracker Target" outside of "Contact Tracker" and place it anywhere in yo
 
 ## How to use
 
-"Contact Tracker/Container" is where you place your objects for attaching to the tracked contact. Alternatively, constrain objects to "Contact Tracker/Tracking Points".
+Place objects inside "Contact Tracker/Container" for attaching to the tracked contact. Alternatively, constrain objects to "Contact Tracker/Tracking Points".
 
 You can edit the collision tags on the 7 receiver components in the "Contact Tracker/Tracking Points" hierarchy to change what contact senders can be tracked.
 
