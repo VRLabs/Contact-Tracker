@@ -37,7 +37,7 @@ You can edit the collision tags on the 7 receiver components in the "Contact Tra
 
 ## Examples
 
-[Red's Player Tracker](https://github.com/hfcRed/Player-Tracker) implements this tracking method in a ready-to-go framework for tracking players.
+[Red's Player Tracker](https://github.com/hfcRed/Player-Tracker) implements this tracking method in a ready-to-go framework.
 
 ## Credit
 
