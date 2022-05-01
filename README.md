@@ -17,8 +17,6 @@ https://user-images.githubusercontent.com/45078979/165898002-cadaceb8-213c-431f-
 
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
-"ContactTracker.Control" is a synced parameter, so click the checkbox within the tool to add it to your avatar's parameter asset. 
-
 "Contact Tracker.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
 
 Unpack the prefab by right-clicking it.
@@ -29,11 +27,11 @@ Remove "Tracker Target" outside of "Contact Tracker" and place it anywhere in yo
 
 ## How to use
 
+**"ContactTracker.Control" parameter must be true for the system to be active.**
+
 Place objects inside "Contact Tracker/Container" for attaching to the tracked contact. Alternatively, constrain objects to "Contact Tracker/Tracking Points".
 
 You can edit the collision tags on the 7 receiver components in the "Contact Tracker/Tracking Points" hierarchy to change what contact senders can be tracked.
-
-"ContactTracker.Control" parameter must be true for the system to be active.
 
 "ContactTracker.Size.Min" parameter can be changed to scale the size of the tracker while it is not tracking.
 
