@@ -15,6 +15,8 @@ Proximity-type [Receivers](https://docs.vrchat.com/docs/contacts#VRCContactRecei
 
 https://user-images.githubusercontent.com/45078979/165898002-cadaceb8-213c-431f-885b-03e5c7b9ba48.mp4
 
+**Use the latest version of [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager).**
+
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
 "Contact Tracker.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
@@ -44,6 +46,10 @@ You can edit the collision tags on the 7 receiver components in the "Contact Tra
 [Red](https://github.com/hfcRed)
 
 [Dreadrith](https://github.com/Dreadrith)
+
+## Author Notes
+
+The Blend Tree used in the "Tracker Blend Tree" layer must use Write Defaults ON. This may result in you mixing Write Defaults settings. In this case, specifically with that Blend Tree, mixing WD settings **should be okay**. If mixing WD settings with that layer causes an issue for you, [please report it to us](https://discord.vrlabs.dev).
 
 ## Downloads
 
