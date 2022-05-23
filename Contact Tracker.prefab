@@ -627,7 +627,7 @@ PositionConstraint:
   - sourceTransform: {fileID: 1259436659}
     weight: 0
   - sourceTransform: {fileID: 974925824185284465}
-    weight: 1
+    weight: 0
 --- !u!1818360610 &5959010088717697304
 ScaleConstraint:
   m_ObjectHideFlags: 0
