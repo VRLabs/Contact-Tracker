@@ -47,9 +47,9 @@ You can edit the collision tags on the 7 receiver components in the "Contact Tra
 
 [Dreadrith](https://github.com/Dreadrith)
 
-## Author Notes
+## Author Note
 
-The Blend Tree used in the "Tracker Blend Tree" layer must use Write Defaults ON. This may result in you mixing Write Defaults settings. In this case, specifically with that Blend Tree, mixing WD settings **should be okay**. If mixing WD settings with that layer causes an issue for you, [please report it to us](https://discord.vrlabs.dev).
+The Blend Tree used in the "Tracker Blend Tree" layer must use Write Defaults ON. This may result in you mixing Write Defaults settings. In this case, specifically with that Blend Tree, mixing Write Defaults settings **should be okay**. If mixing Write Defaults settings with that layer causes an issue for you, [please report it to us](https://discord.vrlabs.dev).
 
 ## Downloads
 
