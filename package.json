@@ -1,0 +1,19 @@
+{
+  "name" : "com.vrlabs.contact-tracker",
+  "displayName" : "Contact Tracker",
+  "version" : "master",
+  "unity" : "2019.4",
+  "description" : "Tracking for contacts, by contacts.",
+  "author" : {
+    "name" : "VRLabs",
+    "email" : "mail@vrlabs.dev",
+    "url" : "https://github.vrlabs.dev"
+  },
+  "vpmDependencies" : {
+    "com.vrchat.avatars" : "3.1.0"
+  },
+  "url" : "https://github.com/VRLabs/Contact-Tracker/releases/download/master/Contact_Tracker_master.zip",
+  "legacyFolders" : {
+    "Assets\\VRLabs\\Contact Tracker" : "9cd56b450009343a99b606696779825a"
+  }
+}
