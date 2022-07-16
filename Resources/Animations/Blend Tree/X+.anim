@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Z- End
+  m_Name: X+
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -41,7 +41,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[5].weight
+    attribute: m_Sources.Array.data[0].weight
     path: Contact Tracker/Tracking Points
     classID: 1818360608
     script: {fileID: 0}
@@ -55,7 +55,7 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 3695631678
-      attribute: 92
+      attribute: 12
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
@@ -106,7 +106,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_Sources.Array.data[5].weight
+    attribute: m_Sources.Array.data[0].weight
     path: Contact Tracker/Tracking Points
     classID: 1818360608
     script: {fileID: 0}
