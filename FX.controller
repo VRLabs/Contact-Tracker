@@ -189,6 +189,24 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: ContactTracker.Inside
     m_EventTreshold: 0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.X+
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.X-
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.Y+
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.Y-
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.Z+
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.Z-
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6109795355817464234}
   m_Solo: 0
@@ -439,6 +457,24 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: ContactTracker.Inside
     m_EventTreshold: 0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.X+
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.X-
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.Y+
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.Y-
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.Z+
+    m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: ContactTracker.Point.Z-
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6109795355817464234}
   m_Solo: 0
