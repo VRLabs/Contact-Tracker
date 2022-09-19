@@ -29,13 +29,13 @@ Remove "Tracker Target" outside of "Contact Tracker" and place it anywhere in yo
 
 ## How to use
 
-**"ContactTracker.Control" parameter must be true for the system to be active.**
+**"ContactTracker/Control" parameter must be true for the system to be active.**
 
 Place objects inside "Contact Tracker/Container" for attaching to the tracked contact. Alternatively, constrain objects to "Contact Tracker/Tracking Points".
 
-You can edit the collision tags on the 7 receiver components in the "Contact Tracker/Tracking Points" hierarchy to change what contact senders can be tracked.
+You can edit the collision tags on the 6 receiver components in the "Contact Tracker/Tracking Points" hierarchy to change what contact senders can be tracked.
 
-"ContactTracker.Size.Min" parameter can be changed to scale the size of the tracker while it is not tracking.
+"ContactTracker/Size" parameter can be changed to scale the size of the tracker while it is not tracking.
 
 ## Examples
 
