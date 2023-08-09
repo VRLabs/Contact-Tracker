@@ -13,7 +13,7 @@ Proximity-type [Receivers](https://docs.vrchat.com/docs/contacts#VRCContactRecei
 
 ## Install guide
 
-https://user-images.githubusercontent.com/45078979/165898002-cadaceb8-213c-431f-885b-03e5c7b9ba48.mp4
+![Alt text](https://raw.githubusercontent.com/VRLabs/Contact-Tracker/main/Media/Setup.mp4)
 
 **Use the latest version of [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager).**
 
