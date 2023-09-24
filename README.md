@@ -48,7 +48,8 @@ System for attaching objects to other players contacts
 
 ## Additional notes
 
-The Blend Tree used in the "Tracker Blend Tree" layer must use Write Defaults ON. This may result in you mixing Write Defaults settings. In this case, specifically with that Blend Tree, mixing Write Defaults settings **should be okay**. If mixing Write Defaults settings with that layer causes an issue for you, [please report it to us](https://discord.vrlabs.dev).
+* The Blend Tree used in the ``Contact Tracker Blend Tree`` FX Layer **MUST** use Write Defaults **ON**!
+* This is the only case in which mixing Write Defaults is okay, you do not need to switch your workflow.
 
 ## Performance stats
 
