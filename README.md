@@ -46,7 +46,7 @@ System for attaching objects to other players contacts
 * You can edit the ``Colission Tags`` of the six Proximity Contacts to change which Contact Senders the Contact Tracker should track.
 * The ``ContactTracker/Size`` parameter in the FX Controller can be changed to set the size of the Contact Tracker when it is not tracking.
 
-## Additional Notes
+## Additional notes
 
 The Blend Tree used in the "Tracker Blend Tree" layer must use Write Defaults ON. This may result in you mixing Write Defaults settings. In this case, specifically with that Blend Tree, mixing Write Defaults settings **should be okay**. If mixing Write Defaults settings with that layer causes an issue for you, [please report it to us](https://discord.vrlabs.dev).
 
