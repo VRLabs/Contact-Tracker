@@ -32,6 +32,8 @@ System for attaching objects to other players contacts
 
 ## Install guide
 
+https://github.com/VRLabs/Contact-Tracker/assets/76777936/39dd0fb1-9333-42d3-91b4-8c812a24792a
+
 * Merge the Animator Controller ``Contact Tracker FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & drop the ``Contact Tracker`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
