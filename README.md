@@ -12,7 +12,8 @@
 
 System for attaching objects to other players contacts
 
-![Alt text]()
+![ContactTracker](https://github.com/VRLabs/Contact-Tracker/assets/76777936/37b3e7ec-9026-4e5a-bbf6-b050a398add6)
+
 
 ### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/Contact-Tracker/releases/latest)
 
