@@ -104,4 +104,3 @@ Contact Tracker is available as-is under MIT. For more information see [LICENSE]
 
 </div>
 
----
