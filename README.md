@@ -10,7 +10,7 @@
 [![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
 [![Generic badge](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dvrlabs%26type%3Dpatrons&style=for-the-badge)](https://patreon.vrlabs.dev/)
 
-System for attaching objects to other players contacts
+System for attaching objects to contacts on other players
 
 ![ContactTracker](https://github.com/VRLabs/Contact-Tracker/assets/76777936/0059a587-8ada-4891-bc18-bf5d5d7a6f6a)
 
@@ -38,15 +38,15 @@ https://github.com/VRLabs/Contact-Tracker/assets/76777936/39dd0fb1-9333-42d3-91b
 * Merge the Animator Controller ``Contact Tracker FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & drop the ``Contact Tracker`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
-* Expand the prefab hierarchy and find ``Tracker Target``
-* Move ``Tracker Target`` outside of ``Contact Tracker`` and place it anywhere in your avatars hierarchy as needed.
+* Expand the prefab hierarchy and find ``Tracker Target``.
+* Move ``Tracker Target`` outside of ``Contact Tracker`` and place it anywhere in your avatar's hierarchy as needed.
 
 ## How to use
 
 * Place the objects you want to attach to other players inside ``Contact Tracker`` -> ``Container``.
   * Alternatively you can constrain the objects to ``Contact Tracker`` -> ``Tracking Points``.
 * Enable the ``ContactTracker/Control`` parameter to activate the system.
-* You can edit the ``Colission Tags`` of the six Proximity Contacts to change which Contact Senders the Contact Tracker should track.
+* You can edit the ``Collision Tags`` of the six Proximity Contacts to change which Contact Senders the Contact Tracker should track.
 * The ``ContactTracker/Size`` parameter in the FX Controller can be changed to set the size of the Contact Tracker when it is not tracking.
 
 ## Additional notes
