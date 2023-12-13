@@ -85,7 +85,7 @@ Contact Tracker
 
 * [Red](https://github.com/hfcRed)
 * [Dreadrith](https://github.com/Dreadrith)
-* [lindesu](https://github.com/oofdesu)
+* [lin](https://github.com/oofdesu)
 
 ## License
 
