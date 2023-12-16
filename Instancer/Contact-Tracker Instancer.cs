@@ -18,7 +18,7 @@ namespace VRLabs.ContactTracker
 			"package.json"
 		};
 
-		[MenuItem("VRLabs/Contact Tracker")]
+		[MenuItem("VRLabs/Create Instance/Contact Tracker")]
 		public static void FancyPackage()
 		{
 			Type instancerType = AppDomain.CurrentDomain.GetAssemblies()
