@@ -22,5 +22,9 @@
     "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
     "Assets/VRLabs/Contact Tracker": "9cd56b450009343a99b606696779825a"
   },
-  "vccRepoCategory": "components"
+  "vccRepoCategory": "components",
+  "media": {
+    "previewImage": "https://github.com/VRLabs/Contact-Tracker/blob/main/Media/Preview.webp",
+    "previewGif": "https://github.com/VRLabs/Contact-Tracker/blob/main/Media/Preview.gif"
+  }
 }
