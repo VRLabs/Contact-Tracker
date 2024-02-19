@@ -20,8 +20,8 @@
   "unityPackageDestinationFolder": "Assets/VRLabs/Contact Tracker",
   "vccRepoCategory": "components",
   "media": {
-    "previewImage": "https://raw.githubusercontent.com/VRLabs/Contact-Tracker/main/Media/Preview.webp",
-    "previewGif": "https://raw.githubusercontent.com/VRLabs/Contact-Tracker/main/Media/Preview.gif"
+    "previewImage": "https://raw.githubusercontent.com/VRLabs/Contact-Tracker/main/Media/Web/Preview.webp",
+    "previewGif": "https://raw.githubusercontent.com/VRLabs/Contact-Tracker/main/Media/Web/PreviewGif.webp"
   },
   "unityPackageDestinationFolderMetas": {
     "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
