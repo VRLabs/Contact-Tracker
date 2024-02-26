@@ -17,8 +17,8 @@ System for attaching objects to contacts on other players
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Contact-Tracker/releases/latest)
 
-<!-- 
-### 📦 [Add to VRChat Creator Companion]() -->
+
+### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.contact-tracker)
 
 </div>
 

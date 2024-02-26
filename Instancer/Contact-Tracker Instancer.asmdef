@@ -1,0 +1,22 @@
+{
+    "name": "VRLabs Contact-Tracker Instancer",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "dev.vrlabs.instancer",
+            "expression": "",
+            "define": "VRLABS_INSTANCER_FOUND"
+        }
+    ],
+    "noEngineReferences": false
+}
