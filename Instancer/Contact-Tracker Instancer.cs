@@ -39,9 +39,9 @@ namespace VRLabs.ContactTracker
 				return;
 			}
 			
-			var editor = ScriptableObject.CreateInstance<ContactTracker>();
-			var script = MonoScript.FromScriptableObject(editor);
-			var assetPath =  AssetDatabase.GetAssetPath(script);
+			var assetPath = new System.Diagnostics.StackTrace(true).GetFrame(0).GetFileName()
+				.Replace(System.IO.Path.GetDirectoryName(Application.dataPath), "")
+				.Replace("\\", "/".Replace("./", ""));
 			
 			instanceMethod.Invoke(null, new object[] { packageName, assetPath, excludeRegexs });
 		}
