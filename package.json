@@ -3,7 +3,7 @@
   "displayName": "Contact Tracker",
   "version": "1.4.999",
   "license": "MIT",
-  "unity": "2019.4",
+  "unity": "2022.3",
   "description": "Tracking for contacts, by contacts.",
   "author": {
     "name": "VRLabs",
@@ -26,5 +26,6 @@
   "unityPackageDestinationFolderMetas": {
     "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
     "Assets/VRLabs/Contact Tracker": "9cd56b450009343a99b606696779825a"
-  }
+  },
+  "questCompatibility": "full"
 }
