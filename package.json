@@ -12,7 +12,8 @@
   },
   "siteUrl": "https://github.com/VRLabs/Contact-Tracker",
   "vpmDependencies": {
-    "dev.vrlabs.instancer": ">=1.0.2"
+    "dev.vrlabs.instancer": ">=1.0.2",
+    "com.vrchat.avatars": "^3.7.0"
   },
   "legacyFolders": {
     "Assets\\VRLabs\\Contact Tracker": "9cd56b450009343a99b606696779825a"
