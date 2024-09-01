@@ -3,9 +3,10 @@
 # Contact Tracker
 
 [![Generic badge](https://img.shields.io/github/downloads/VRLabs/Contact-Tracker/total?label=Downloads)](https://github.com/VRLabs/Contact-Tracker/releases/latest)
-[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Contact-Tracker/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightblue.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
-[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue.svg)](https://vrchat.com/home/download)
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational)](https://github.com/VRLabs/Contact-Tracker/blob/main/LICENSE)
+[![Generic badge](https://img.shields.io/badge/Quest-Compatible-green?logo=Meta)](https://img.shields.io/badge/Quest-Compatible-green?logo=Meta)
+[![Generic badge](https://img.shields.io/badge/Unity-2022.3.22f1-lightblue?logo=Unity)](https://unity.com/releases/editor/whats-new/2022.3.22)
+[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue)](https://vrchat.com/home/download)
 
 [![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
 [![Generic badge](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dvrlabs%26type%3Dpatrons&style=for-the-badge)](https://patreon.vrlabs.dev/)
@@ -14,9 +15,7 @@ System for attaching objects to contacts on other players
 
 ![ContactTracker](https://github.com/VRLabs/Contact-Tracker/assets/76777936/0059a587-8ada-4891-bc18-bf5d5d7a6f6a)
 
-
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Contact-Tracker/releases/latest)
-
 
 ### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.contact-tracker)
 
@@ -41,6 +40,9 @@ https://github.com/VRLabs/Contact-Tracker/assets/76777936/39dd0fb1-9333-42d3-91b
 * Expand the prefab hierarchy and find ``Tracker Target``.
 * Move ``Tracker Target`` outside of ``Contact Tracker`` and place it anywhere in your avatar's hierarchy as needed.
 
+> [!NOTE]  
+> When building for Quest, you will have to remove unsupported components and shaders
+
 ## How to use
 
 * Place the objects you want to attach to other players inside ``Contact Tracker`` -> ``Container``.
@@ -58,6 +60,7 @@ https://github.com/VRLabs/Contact-Tracker/assets/76777936/39dd0fb1-9333-42d3-91b
 
 ```c++
 Constraints:        6
+Constraint Depth:   5
 Contact Receivers:  6
 FX Animator Layers: 2
 Mesh Renderers:     1
@@ -83,7 +86,7 @@ Contact Tracker
 
 ## Contributors
 
-* [Red](https://github.com/hfcRed)
+* [hfcRed](https://github.com/hfcRed)
 * [Dreadrith](https://github.com/Dreadrith)
 * [lin](https://github.com/oofdesu)
 
@@ -104,4 +107,3 @@ Contact Tracker is available as-is under MIT. For more information see [LICENSE]
 [<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Twitter.png" width="50" height="50">](https://twitter.com/vrlabsdev "VRLabs")
 
 </div>
-
