@@ -64,7 +64,6 @@ Constraint Depth:   5
 Contact Receivers:  6
 FX Animator Layers: 2
 Mesh Renderers:     1
-Rigidbodies:        1
 ```
 
 ## Hierarchy layout
