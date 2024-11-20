@@ -25,7 +25,7 @@ System for attaching objects to contacts on other players
 
 ## How it works
 
-* Six overlapping Proximity Contacts feed their outputs into a parent constraint to center a GameObject on the target.
+* Four overlapping Proximity Contacts feed their outputs into a parent constraint to center a GameObject on the target.
   * The GameObject contains the Proximity Contacts, making them center themselves on the target constantly.
 * The ``Allow Others`` setting on the Contacts is turned off after the Contact Tracker has attached.
   * This prevents the Contact Tracker from tracking multiple Contacts.
@@ -48,7 +48,7 @@ https://github.com/VRLabs/Contact-Tracker/assets/76777936/39dd0fb1-9333-42d3-91b
 * Place the objects you want to attach to other players inside ``Contact Tracker`` -> ``Container``.
   * Alternatively you can constrain the objects to ``Contact Tracker`` -> ``Tracking Points``.
 * Enable the ``ContactTracker/Control`` parameter to activate the system.
-* You can edit the ``Collision Tags`` of the six Proximity Contacts to change which Contact Senders the Contact Tracker should track.
+* You can edit the ``Collision Tags`` of the four Proximity Contacts to change which Contact Senders the Contact Tracker should track.
 * The ``ContactTracker/Size`` parameter in the FX Controller can be changed to set the size of the Contact Tracker when it is not tracking.
 
 ## Additional notes
@@ -61,7 +61,7 @@ https://github.com/VRLabs/Contact-Tracker/assets/76777936/39dd0fb1-9333-42d3-91b
 ```c++
 Constraints:        6
 Constraint Depth:   5
-Contact Receivers:  6
+Contact Receivers:  4
 FX Animator Layers: 2
 Mesh Renderers:     1
 ```
@@ -74,12 +74,10 @@ Contact Tracker
 |  |-Cube
 |-Tracking Points
 |  |-Culling
-|  |-X+
-|  |-X-
-|  |-Y+
-|  |-Y-
-|  |-Z+
-|  |-Z-
+|  |-Point0
+|  |-Point1
+|  |-Point2
+|  |-Point3
 |-Tracker Target
 ```
 
@@ -88,6 +86,7 @@ Contact Tracker
 * [hfcRed](https://github.com/hfcRed)
 * [Dreadrith](https://github.com/Dreadrith)
 * [lin](https://github.com/oofdesu)
+* [lambdalemon](https://github.com/lambdalemon) (4 point tracking math)
 
 ## License
 

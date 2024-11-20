@@ -28,6 +28,37 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!206 &-8582882467299091159
+BlendTree:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Point0
+  m_Childs:
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 9a8f2d9efce6c69459088d47c119544d, type: 2}
+    m_Threshold: 0
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Point0
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 1d2361fba606e7f438aa83f8bb67982c, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Two
+    m_Mirror: 0
+  m_BlendParameter: ContactTracker/Point0
+  m_BlendParameterY: ContactTracker/Point0
+  m_MinThreshold: 0
+  m_MaxThreshold: 1
+  m_UseAutomaticThresholds: 1
+  m_NormalizedBlendValues: 0
+  m_BlendType: 4
 --- !u!206 &-8364802968510361054
 BlendTree:
   m_ObjectHideFlags: 1
@@ -37,54 +68,6 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 774efb752267e4dc19798294d87bcb6c, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: ContactTracker/X+
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: c37dc3eb8391b4efbb0d68c151bcb823, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: ContactTracker/X-
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: f1f8e3e51867a4e0092925643332e4d2, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: ContactTracker/Y+
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 6d18e4b591a334b5f8dc4b758ae636ce, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: ContactTracker/Y-
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 7808ccc6703e74e1eb2deef5a9c5a91b, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: ContactTracker/Z+
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: ae1fabd0e8a934fac92bd811c46ad157, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: ContactTracker/Z-
-    m_Mirror: 0
-  - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 1ed351bcc39a048bd900ccf829f3d24a, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
@@ -92,9 +75,80 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: ContactTracker/Size
     m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: -8582882467299091159}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Point0
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: -4195401518062264340}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Point1
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: -5268982690667291503}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Point2
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: -7946400754873375809}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Point3
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 3c99cdab4a5b03a4bbce52279096e55b, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/One
+    m_Mirror: 0
   m_BlendParameter: ContactTracker
   m_BlendParameterY: Tracker 1/Point 1
   m_MinThreshold: 1
+  m_MaxThreshold: 1
+  m_UseAutomaticThresholds: 1
+  m_NormalizedBlendValues: 0
+  m_BlendType: 4
+--- !u!206 &-7946400754873375809
+BlendTree:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Point3
+  m_Childs:
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: db9912e63aba1f84599627e69e9dab96, type: 2}
+    m_Threshold: 0
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Point3
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 7b6f9180cb48829489652bfac01855ad, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Two
+    m_Mirror: 0
+  m_BlendParameter: ContactTracker/Point0
+  m_BlendParameterY: ContactTracker/Point0
+  m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
@@ -150,6 +204,68 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: ContactTracker.Blend
+--- !u!206 &-5268982690667291503
+BlendTree:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Point2
+  m_Childs:
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: bb5a668370b6085459acf5638f14cdd8, type: 2}
+    m_Threshold: 0
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Point2
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 1267e01856dac9d49ab32921db30129b, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Two
+    m_Mirror: 0
+  m_BlendParameter: ContactTracker/Point0
+  m_BlendParameterY: ContactTracker/Point0
+  m_MinThreshold: 0
+  m_MaxThreshold: 1
+  m_UseAutomaticThresholds: 1
+  m_NormalizedBlendValues: 0
+  m_BlendType: 4
+--- !u!206 &-4195401518062264340
+BlendTree:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Point1
+  m_Childs:
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 6ab130997cde70f40a041bd9313bad1b, type: 2}
+    m_Threshold: 0
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Point1
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 27c71ac88e34d554589f4a26ec905730, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: ContactTracker/Two
+    m_Mirror: 0
+  m_BlendParameter: ContactTracker/Point0
+  m_BlendParameterY: ContactTracker/Point0
+  m_MinThreshold: 0
+  m_MaxThreshold: 1
+  m_UseAutomaticThresholds: 1
+  m_NormalizedBlendValues: 0
+  m_BlendType: 4
 --- !u!1101 &-2355329122168942770
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -162,22 +278,16 @@ AnimatorStateTransition:
     m_ConditionEvent: ContactTracker/Control
     m_EventTreshold: 0
   - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/X+
+    m_ConditionEvent: ContactTracker/Point0
     m_EventTreshold: 0.00001
   - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/X-
+    m_ConditionEvent: ContactTracker/Point1
     m_EventTreshold: 0.00001
   - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/Y+
+    m_ConditionEvent: ContactTracker/Point2
     m_EventTreshold: 0.00001
   - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/Y-
-    m_EventTreshold: 0.00001
-  - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/Z+
-    m_EventTreshold: 0.00001
-  - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/Z-
+    m_ConditionEvent: ContactTracker/Point3
     m_EventTreshold: 0.00001
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2074266605032204707}
@@ -202,22 +312,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/X+
+    m_ConditionEvent: ContactTracker/Point0
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/X-
+    m_ConditionEvent: ContactTracker/Point1
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/Y+
+    m_ConditionEvent: ContactTracker/Point2
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/Y-
-    m_EventTreshold: 0
-  - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/Z+
-    m_EventTreshold: 0
-  - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/Z-
+    m_ConditionEvent: ContactTracker/Point3
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6109795355817464234}
@@ -247,49 +351,49 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: ContactTracker/X+
+    m_Controller: {fileID: 0}
+  - m_Name: ContactTracker/Point0
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: ContactTracker/X-
+    m_Controller: {fileID: 0}
+  - m_Name: ContactTracker/Point1
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: ContactTracker/Y+
+    m_Controller: {fileID: 0}
+  - m_Name: ContactTracker/Point2
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: ContactTracker/Y-
+    m_Controller: {fileID: 0}
+  - m_Name: ContactTracker/Point3
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: ContactTracker/Z+
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: ContactTracker/Z-
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: ContactTracker/Size
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
+  - m_Name: ContactTracker/One
+    m_Type: 1
+    m_DefaultFloat: 1
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: ContactTracker/Two
+    m_Type: 1
+    m_DefaultFloat: 2
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Contact Tracker Control
@@ -377,22 +481,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/X+
+    m_ConditionEvent: ContactTracker/Point0
     m_EventTreshold: 0.00001
   - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/X-
+    m_ConditionEvent: ContactTracker/Point1
     m_EventTreshold: 0.00001
   - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/Y+
+    m_ConditionEvent: ContactTracker/Point2
     m_EventTreshold: 0.00001
   - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/Y-
-    m_EventTreshold: 0.00001
-  - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/Z+
-    m_EventTreshold: 0.00001
-  - m_ConditionMode: 4
-    m_ConditionEvent: ContactTracker/Z-
+    m_ConditionEvent: ContactTracker/Point3
     m_EventTreshold: 0.00001
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2074266605032204707}
@@ -476,22 +574,16 @@ AnimatorStateTransition:
     m_ConditionEvent: ContactTracker/Control
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/X+
+    m_ConditionEvent: ContactTracker/Point0
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/X-
+    m_ConditionEvent: ContactTracker/Point1
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/Y+
+    m_ConditionEvent: ContactTracker/Point2
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/Y-
-    m_EventTreshold: 0
-  - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/Z+
-    m_EventTreshold: 0
-  - m_ConditionMode: 3
-    m_ConditionEvent: ContactTracker/Z-
+    m_ConditionEvent: ContactTracker/Point3
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6109795355817464234}
